@@ -1,0 +1,17 @@
+<html>
+<head>
+</head>
+<body>
+	<script type="text/javascript">
+		fetch('https://www.baidu.com/search/error.html', {
+		    method: 'GET'
+		  })
+		  .then((res)=>{
+		    return res.text()
+		  })
+		  .then((res)=>{
+		    console.log(res)
+		  })
+	</script>
+</body>
+</html>
